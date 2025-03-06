@@ -1,0 +1,276 @@
+
+body {
+    font-family: Arial;
+    background-color: #FBF8EF;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #80CBC4;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.header {
+    background-color: #B4EBE6;
+    text-align: center;
+    padding: 50px;
+    color: #333;
+    background-image: url('/api/placeholder/1200/400');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-overlay {
+    background-color: rgba(180, 235, 230, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.quote {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    margin: 20px;
+    color: #FFB433;
+}
+
+.about-section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+
+.section-title {
+    text-align: center;
+    color: #80CBC4;
+    font-size: 24px;
+}
+
+.content {
+    line-height: 1.5;
+}
+
+.filter-bar {
+    text-align: center;
+    margin: 20px;
+}
+
+.filter-button {
+    background-color: #80CBC4;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recipe {
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+
+.recipe-image {
+    height: 150px;
+    background-color: #B4EBE6;
+    position: relative;
+    overflow: hidden;
+}
+
+.recipe-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.anime-tag {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #FFB433;
+    color: white;
+    padding: 5px;
+    z-index: 1;
+}
+
+.recipe-content {
+    padding: 15px;
+}
+
+.recipe-info {
+    margin: 10px 0;
+    color: #666;
+}
+
+.recipe-button {
+    background-color: #80CBC4;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.featured-section {
+    background-color: #B4EBE6;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.featured-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured-item {
+    background-color: white;
+    width: 400px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.featured-image {
+    height: 200px;
+    background-color: #80CBC4;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.featured-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cta-section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.cta-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.cta-button {
+    background-color: #FFB433;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    text-align: left;
+}
+
+.footer-column h3 {
+    color: #FFB433;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 5px;
+}
+
+.footer-column a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #80CBC4;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 20px;
+    color: #888;
+}
