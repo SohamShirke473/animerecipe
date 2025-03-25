@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Anime Kitchen</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
@@ -11,7 +11,7 @@
         </div>
         <div class="nav-links">
             <a href="#home">Home</a>
-            <a href="recipes.html">Recipes</a>
+            <a href="#recipes">Recipes</a>
             <a href="#featured">Featured</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
@@ -38,7 +38,8 @@
             <p>Join our community of food enthusiasts and anime lovers as we explore the delightful intersection of Japanese animation and culinary artistry!</p>
         </div>
     </div>
-    
+   
+    <input id="search-input" type="text">
     
     <div id="recipes">
         <h2 class="section-title">Explore Recipes</h2>
@@ -53,73 +54,11 @@
         </div>
         
         <div class="recipes">
-            <div class="recipe">
-                <div class="recipe-image">
-                    <img src="1.png" alt="Ichiraku Ramen from Naruto">
-                    <span class="anime-tag">Naruto</span>
-                </div>
-                <div class="recipe-content">
-                    <h3>Ichiraku Ramen</h3>
-                    <div class="recipe-info">
-                        <span>🕒 40 minutes</span>
-                        <span>⭐ 4.9 (127)</span>
-                    </div>
-                    <p>The legendary ramen that fueled Naruto's ninja journey, featuring rich pork broth, tender chashu, and perfectly cooked noodles.</p>
-                    <a href="#" class="recipe-button">View Recipe</a>
-                </div>
-            </div>
-            
-            <div class="recipe">
-                <div class="recipe-image">
-                    <img src="2.png" alt="Tonkatsu Bento from Your Name">
-                    <span class="anime-tag">Your Name</span>
-                </div>
-                <div class="recipe-content">
-                    <h3>Tonkatsu Bento</h3>
-                    <div class="recipe-info">
-                        <span>🕒 35 minutes</span>
-                        <span>⭐ 4.7 (84)</span>
-                    </div>
-                    <p>A crispy and delicious Japanese bento featuring golden panko-breaded pork cutlet, perfect for school lunches.</p>
-                    <a class="recipe-button">View Recipe</a>
-                </div>
-            </div>
-            
-            <div class="recipe">
-                <div class="recipe-image">
-                    <img src="3.png" alt="Soufflé Pancakes from Food Wars">
-                    <span class="anime-tag">Food Wars</span>
-                </div>
-                <div class="recipe-content">
-                    <h3>Soufflé Pancakes</h3>
-                    <div class="recipe-info">
-                        <span>🕒 25 minutes</span>
-                        <span>⭐ 4.8 (153)</span>
-                    </div>
-                    <p>Fluffy, airy pancakes that melt in your mouth, inspired by the culinary battles of Shokugeki no Soma.</p>
-                    <a class="recipe-button">View Recipe</a>
-                </div>
-            </div>
-            
-            <div class="recipe">
-                <div class="recipe-image">
-                    <img src="4.png" alt="Takoyaki from Clannad">
-                    <span class="anime-tag">Clannad</span>
-                </div>
-                <div class="recipe-content">
-                    <h3>Takoyaki</h3>
-                    <div class="recipe-info">
-                        <span>🕒 30 minutes</span>
-                        <span>⭐ 4.6 (97)</span>
-                    </div>
-                    <p>Delicious octopus-filled street food balls, crispy on the outside and gooey inside, a festival favorite.</p>
-                    <a class="recipe-button">View Recipe</a>
-                </div>
-            </div>
+           
         </div>
         
-        <div style="text-align: center; margin: 20px;">
-            <button class="filter-button">Load More</button>
+        
+
         </div>
     </div>
     
@@ -191,5 +130,7 @@
             <p>© 2025 The Anime Kitchen. All rights reserved.</p>
         </div>
     </div>
+    <script src="script.js"></script>
+
 </body>
 </html>
